@@ -1,0 +1,147 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec}	
+\usepackage{pdfcolparallel}
+\usepackage{xunicode,xltxtra,url,parskip}
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[a4paper, total={6.45in, 10.5in}]{geometry}
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\hyphenation{im-pre-se}
+
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\font\fb=''[cmr10]''
+
+\par{\centering
+		{\Huge \textsc{Yashit Maheshwary}\\
+		}
+		\href{https://yashitm.tech/}{My Website}, \href{https://www.github.com/YashitM}{GitHub}, \href{https://www.linkedin.com/in/yashit-maheshwary-aa8078b2/}{LinkedIn}, \href{https://www.codechef.com/users/yashitm}{CodeChef}
+	\par}
+\noindent\textbox{\textbf{Mobile: }+91 9650954383\hfill}\textbox{\hfil \textbf{DOB:} & 3\textsuperscript{rd} August 1998 \hfil}\textbox{\hfill \textbf{EMAIL: }\href{mailto:yashitmaheshwary@gmail.com}{yashitmaheshwary@gmail.com}}
+
+
+\section{Experience}
+\begin{tabular}{r|p{13.5cm}}
+\textsc{Current} & Full Stack Web Developer at \href{http://www.moyosolutions.online}{\textbf{MoyoSolutions}}\\
+& \emph{\small{Developed a Web Application for the CarzRideOn Android Application using \textbf{Django Web Framework}, \textbf{Google and Facebook OAuth}, \textbf{Google Maps and Places APIs}, \textbf{Firebase Cloud Messaging (For Notifications)} configured with a \textbf{MySQL Database}}}\\\multicolumn{2}{c}{}
+\end{tabular}
+
+
+\section{Areas of Competence}
+\begin{Parallel}{0.45\textwidth}{0.55\textwidth}
+\ParallelLText{
+    \begin{itemize}
+        \item Computer Security
+        \item Full Stack Web Development
+        \item Data Structures and Algorithms
+        \item Machine Learning
+    \end{itemize}
+}
+\ParallelRText{
+    \begin{itemize}
+        \item Automation with Microprocessors (RaspberryPi \& Arduino)
+        \item Android App Development
+    \end{itemize}
+    }
+\ParallelPar
+\end{Parallel}
+
+\section{Scholastics}
+\begin{tabular}{r|p{13.5cm}}
+ \textsc{2016 - Present} & B.Tech 2\textsuperscript{nd} Year in \textsc{Computer Science and Engineering}, \textbf{I.I.I.T.}, Delhi\\
+& \textbf{Courses}: D.S.A., Computer Organization, Advanced Programming\\
+& Systems Management, Introduction to Python Programming\\
+& Introduction to Engineering Design\\\multicolumn{1}{c}{}\\
+\textsc{2015 - 2016}& High School, \normalsize\textbf{Abu Dhabi Indian School}, U.A.E.\\
+& Majored in Computer Science (Programming with C++) \\
+&\normalsize \textbf{GPA}: 9.42/10\\&\\\multicolumn{1}{c}{}\\
+\end{tabular}
+
+%Section: Languages
+\section{Knowledge \& Skills}
+\begin{tabular}{r|p{11cm}}
+ \textsc{Language Proficiency} & Python, Java, C++, C, , JavaScript, PHP, HTML \& CSS, Assembly, LaTeX, Shell Script, MySQL\\\multicolumn{1}{c}{}\\
+ \textsc{Frameworks \& Tools} & Django, Flask, ReactJS, React Native, NodeJS, Android Studio, Bootstrap, Raspberry Pi, Arduino, IDA, Curl, PwnTools, BurpSuite, Firebase, JavaFX, Git, Requests, Beautiful Soup, Selenium (Web Scraping \& Bruteforcing) etc.\\\multicolumn{1}{c}{}\\
+ \textsc{Miscellaneous} & Adobe Photoshop, Microsoft Office, Adobe After Effects\\\multicolumn{1}{c}{}
+\end{tabular}
+
+
+%Section: Scholarships and additional info
+\section{Achievements}
+\begin{tabular}{r|p{13.5cm}}
+\textsc{Current} & Co-Founder of \href{https://ctftime.org/team/15154}{\textbf{d4rkc0de}}, the only Computer Security Club at IIIT Delhi.  \\
+& \emph{\small{d4rkc0de loves to discuss and teach various concepts like Advanced Cryptography, Forensic Analysis, Reverse Engineering, Web Penetration Testing and Binary Analysis. We also participate in (and conduct) International Capture The Flag Competitions. d4rkc0de is currently ranked 1\textsuperscript{st} in India and 87\textsuperscript{th} Globally!}}\\\multicolumn{2}{c}{}\\
+\textsc{Current}& Leader of CTF Team \href{https://ctftime.org/team/31353}{\textbf{Scrypter}} \\
+& \emph{\small{Leading Scrypter, a team of 3 passionate network security enthusiasts. A known competitors of Capture the Flag (CTF) Events. Scrypter is currently ranked 8\textsuperscript{th} in India and 227\textsuperscript{th} in the world. \textbf{UPDATE}: We now are a part of the team \textbf{d4rkc0de}.}}\\\multicolumn{2}{c}{}\\
+ \textsc{Nov} 2017 & Finalist in the Globals Conference on CyberSpace CTF (Ranked 1\textsuperscript{st} in India and 2\textsuperscript{nd} Worldwide) as \href{https://ctftime.org/team/31353}{\textbf{Scrypter}}\\\multicolumn{2}{c}{}\\
+\textsc{Apr} 2017 & Ranked 2\textsuperscript{nd} globally in YubitSec CTF as \href{https://ctftime.org/team/31353}{\textbf{Scrypter}}\\\multicolumn{2}{c}{}\\
+\textsc{Mar} 2017 & Ranked 4\textsuperscript{th} globally in Pragyan CTF as \href{https://ctftime.org/team/31353}{\textbf{Scrypter}}\\\multicolumn{2}{c}{}\\
+\textsc{Feb} 2017 & Secured first position at the Capture the Flag Competition hosted during the Security and Privacy Symposium by \textbf{CERC} at IIIT Delhi.\\\multicolumn{2}{c}{}\\
+\textsc{Jan} 2017 & Member of Software Development Club \textbf{Byld} at IIIT Delhi.  \\\multicolumn{2}{c}{}\\
+\textsc{Oct} 2015 & Represented U.A.E. in the CBSE Swimming Nationals Championship in Meerut.\\\multicolumn{2}{c}{}\\
+\textsc{Oct} 2015 & Secured Perfect Score in SAT Subject Tests (Physics, Chemistry \& Mathematics).\\\multicolumn{2}{c}{}\\
+\textsc{Apr} 2015 & Secretary of Robotics Club at Abu Dhabi Indian School. \\\multicolumn{2}{c}{}\\
+\textsc{Oct} 2014 & Represented U.A.E. in the CBSE Swimming Nationals Championship in Vadodara.  \\\multicolumn{2}{c}{}\\
+\textsc{Apr} 2014 & Winner of the Urban Biodiversity Challenge by \textbf{Environment Agency Abu Dhabi} \\\multicolumn{2}{c}{}\\
+\textsc{Apr} 2014 & 2\textsuperscript{nd} Runners Up in Research Report on ''Food Wastage'' hosted by \textbf{Environment Agency Abu Dhabi} \\\multicolumn{2}{c}{}\\
+\end{tabular}
+
+
+\section{Projects}
+\begin{tabular}{r|p{13.5cm}}
+ \emph{Dec 2017} & \href{https://github.com/YashitM/Shell}{\textbf{Shell}} \\&\normalsize{A Terminal built solely with C.}\\\multicolumn{2}{c}{} \\
+ \emph{Dec 2017} & \href{https://github.com/YashitM/Shell}{\textbf{Shell}} \\&\normalsize{A Terminal built solely with C.}\\\multicolumn{2}{c}{} \\
+ \emph{Nov 2017} & \href{https://github.com/dvatsav/FitnessPartner}{\textbf{Fitness Partner}} \\&\normalsize{A Telegram Bot that allows users to find Partners for their Fitness Activities everyday! It also has additional features like Reminder and Fact Sharing.}\\\multicolumn{2}{c}{} \\
+ \emph{Sep 2017} & \href{https://github.com/YashitM/Amazon-Chrome-Extension}{\textbf{Amazon Chrome Extension}} \\&\normalsize{A Chrome Extension that allows a user to enter a search keyword and get the details of items related to that keyword (using JavaScript and Flask).}\\\multicolumn{2}{c}{} \\
+ \emph{Aug 2017} & \href{https://github.com/YashitM/ChatsUp}{\textbf{ChatsUp}} \\&\normalsize{An Android Application that allows users to Chat (made using Google Firebase).}\\\multicolumn{2}{c}{} \\ 
+ \emph{Aug 2017} & \href{https://github.com/abhay-tyagi/Social_Network}{\textbf{The Social Network}} \\&\normalsize{A Social Networking Website built using Django Web Framework}\\\multicolumn{2}{c}{} \\
+ \emph{Jan 2017} & \href{https://github.com/YashitM/Homie-Bot}{\textbf{Homie Bot}} \\&\normalsize{A Personal Assistant Bot (Built using a Raspberry Pi) that can find missing items in a room just by Voice Commands. It can also update you with News, Weather, Send Mails etc.}\\\multicolumn{2}{c}{} \\
+ \emph{Nov 2016} & \href{https://github.com/YashitM/Arduino-Speech-Recog}{\textbf{Speech Recognition using Arduino}} \\&\normalsize{A device that allows a person to perform various tasks (like mathematical calculations, control light switches, keep a track of the temperature etc) just by voice commands.}\\\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+\section{Interests and Hobbies}
+\begin{itemize}
+  \item Open Source Programming \\
+  \emph{\small{Contributed to a few small Repositories. Will soon begin contributing to Organizations}}
+  \item Freelance \\
+  \emph{\small{Freelancing in areas like Image Processing, Database Management and Web Scraping}}
+  \item Upload Programming Tutorials on \href{https://www.youtube.com/channel/UC5A8roRFNDmhw4jNKiQqWnQ}{\textbf{YouTube}} \\
+  \emph{\small{Python and Android Application Development Tutorials}}
+  \item Answer Questions on \href{https://www.quora.com/profile/Yashit-Maheshwary}{\textbf{Quora}}
+  \item Swimming
+  \item Table Tennis
+  \item Solving various types of Rubik's Cubes \\
+  \emph{\normalsize{\textbf{11}} \small{(unique types) and Counting!}}
+\end{itemize}
+
+\end{document}
